@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'laranja';
+    src: url(fontes/idroid.otf);
+ }
+/*
+#147A6B
+#73FBE6
+#29FADB
+#387A70
+#20C7AE
+*/
+:root{
+--cor1: #147A6B;
+--cor2:#73FBE6;
+--cor3:#29FADB;
+--cor4:#387A70;
+--cor5:#20C7AE;
+ --fontepadrao: arial, verdana;
+ --fontedastaque:'Bebas Neue', sans-serif;
+ --fonteandroid: 'laranja', cursive;
+}
+
+
+body{
+    background-color: #147A6B;
+    font-family: var(--fontepadrao);
+    margin: 0px;
+}
+header{
+    background-image:linear-gradient(#20C7AE, #387A70);
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+ header > h1{
+    font-family: var(--fontedastaque);
+    color: white;
+    margin: 0px;
+    padding: 8px;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.603);
+ }
+
+ header > p{
+    color: white;
+    margin: 0px;
+    padding: 8px;
+    padding-bottom: 3px;
+    min-width: 150px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.603);
+    text max-width: 60px;
+ }
+
+ nav{
+    background-color: #193531;
+    padding: 10px;
+
+ }
+
+ nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+transition-duration: 0.3s;
+ }
+
+ nav > a:hover{
+    color: green;
+    background-color: #20C7AE;
+ }
+
+ main{
+    background-color: white;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 20px;
+    padding-top: 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   text-align: justify;
+ 
+}
+
+ article > p {
+    text-indent: 40px;
+}
+
+ article > h2{
+    padding:15px ;
+    font-family: 'laranja';
+    margin: 0px;
+    color: rgb(34, 138, 25);
+ }
+
+ article > a{
+    background-color: #387A70;
+    text-decoration: none;
+ }
+
+img{
+    width: 100%;
+}
+
+.video{
+    background-color: green;
+    margin: 5px -20px 5px;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 52%;
+}
+
+.video2{
+    margin: auto;
+    display: block;
+    width: 600px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.imagemdroid{
+    display: block;
+    margin: auto;
+    width: 400px;
+    max-width: 450px;
+}
+
+aside{
+    margin: 20px;
+    margin-top: 50px;
+    background-color: #29FADB;
+    padding: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 20px;
+}
+
+aside > h1{
+    padding: 10px;
+
+}
+
+aside > header{
+    padding: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+aside > ul{
+    columns: 2;
+}
+aside > p{
+    text-align: justify;
+    padding: 12px;
+    text-indent: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+}
